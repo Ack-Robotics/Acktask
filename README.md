@@ -18,10 +18,21 @@ Formal approach to manipulating the Schunk SVH 5-finger,9 dof hand based on real
    ```
    
  2. Catkin_make
-    ```bash
+  ```bash
     cd ~/arm_ws
-    catkin_make_isolated
-   
+    catkin_make_isolated   
    ```
-   
-   3
+ 3. Rviz for visualization 
+```bash
+    cd ~/arm_ws
+    source devel/setup.bash 
+    roslaunch demo.launch
+    
+   ```
+ 4. Python script for arm movement
+ ```bash
+    cd ~/arm_ws/
+    source devel/setup.bash 
+    roslaunch demo.launch
+    
+   ```
