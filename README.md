@@ -34,13 +34,23 @@ https://drive.google.com/file/d/14L-cI_Go09OoK4eDI-InlFKM7wRfAew-/view?usp=drive
 ```bash
     cd ~/arm_ws
     source devel/setup.bash 
-    roslaunch demo.launch
+    roslaunch hand6_moveit_config demo.launch
     
    ```
  4. Python script for arm movement
  ```bash
     cd ~/arm_ws/
     source devel/setup.bash 
-    roslaunch demo.launch
+    python3 src/Acktask/src/scripts/finger_control.py
     
    ```
+   
+ 5. Python script for Gesture Detection
+ ```bash
+    cd ~/arm_ws/
+    source devel/setup.bash 
+    python3 src/Acktask/grv2.py
+    
+   ```
+   
+   
