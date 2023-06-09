@@ -6,6 +6,12 @@ Formal approach to manipulating the Schunk SVH 5-finger,9 dof hand based on real
 # Our Result
 ![alt text](https://github.com/Ack-Robotics/Acktask/blob/main/assets/9_dof_using_moveit.jpg)
 
+## Rock
+![alt text](https://drive.google.com/file/d/1ed3IKfYV3QjuTdAtwRqr5HsdekpqI5cu/view)
+## Peace
+![alt text](https://github.com/Ack-Robotics/Acktask/blob/main/assets/9_dof_using_moveit.jpg)
+## Stop
+![alt text](https://github.com/Ack-Robotics/Acktask/blob/main/assets/9_dof_using_moveit.jpg)
 
 ## Demonstration Setup
 1. Clone this repository
