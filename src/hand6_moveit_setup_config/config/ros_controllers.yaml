@@ -1,0 +1,74 @@
+thumb_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - left_hand_Thumb_Opposition
+    - left_hand_Thumb_Flexion
+  gains:
+    left_hand_Thumb_Opposition:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    left_hand_Thumb_Flexion:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+index_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - left_hand_Index_Finger_Proximal
+    - left_hand_Index_Finger_Distal
+  gains:
+    left_hand_Index_Finger_Proximal:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    left_hand_Index_Finger_Distal:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+middle_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - left_hand_Middle_Finger_Proximal
+    - left_hand_Middle_Finger_Distal
+  gains:
+    left_hand_Middle_Finger_Proximal:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    left_hand_Middle_Finger_Distal:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+ring_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - left_hand_Ring_Finger
+  gains:
+    left_hand_Ring_Finger:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+little_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - left_hand_Finger_Spread
+    - left_hand_Pinky
+  gains:
+    left_hand_Finger_Spread:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    left_hand_Pinky:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

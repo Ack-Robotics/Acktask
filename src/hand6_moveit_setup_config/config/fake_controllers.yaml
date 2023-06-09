@@ -1,0 +1,36 @@
+controller_list:
+  - name: fake_thumb_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - left_hand_Thumb_Opposition
+      - left_hand_Thumb_Flexion
+  - name: fake_index_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - left_hand_Index_Finger_Proximal
+      - left_hand_Index_Finger_Distal
+  - name: fake_middle_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - left_hand_Middle_Finger_Proximal
+      - left_hand_Middle_Finger_Distal
+  - name: fake_ring_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - left_hand_Ring_Finger
+  - name: fake_little_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - left_hand_Finger_Spread
+      - left_hand_Pinky
+initial:  # Define initial robot poses per group
+  - group: thumb
+    pose: rock
+  - group: index
+    pose: peace
+  - group: middle
+    pose: rock
+  - group: ring
+    pose: rock
+  - group: little
+    pose: rock

@@ -1,0 +1,35 @@
+controller_list:
+  - name: thumb_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - left_hand_Thumb_Opposition
+      - left_hand_Thumb_Flexion
+  - name: index_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - left_hand_Index_Finger_Proximal
+      - left_hand_Index_Finger_Distal
+  - name: middle_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - left_hand_Middle_Finger_Proximal
+      - left_hand_Middle_Finger_Distal
+  - name: ring_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - left_hand_Ring_Finger
+  - name: little_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - left_hand_Finger_Spread
+      - left_hand_Pinky
